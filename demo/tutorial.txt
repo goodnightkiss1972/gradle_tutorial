@@ -1,0 +1,1 @@
+https://docs.gradle.org/7.4/samples/sample_building_java_applications.html
