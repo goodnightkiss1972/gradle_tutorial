@@ -39,3 +39,11 @@ tasks.named('test') {
 run {
     standardInput = System.in
 }
+
+project(':app') {
+    jar {
+        manifest  {
+            attributes 'Main-Class': 'catane.Catane'
+        }
+    }
+}
